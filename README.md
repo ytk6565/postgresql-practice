@@ -1,2 +1,2 @@
 # postgresql-practice
-PostgreSQL の勉強用リポジトリ
+書籍「SQL ゼロからはじめるデータベース操作」をもとに PostgreSQL の勉強するリポジトリ
