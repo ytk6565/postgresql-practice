@@ -1,9 +1,9 @@
--- DDLFƒe[ƒuƒ‹ì¬
+-- DDLï¼šãƒ†ãƒ¼ãƒ–ãƒ«ä½œæˆ
 CREATE TABLE SampleLike
 ( strcol VARCHAR(6) NOT NULL,
   PRIMARY KEY (strcol));
 
--- DMLFƒf[ƒ^“o˜^
+-- DMLï¼šãƒ‡ãƒ¼ã‚¿ç™»éŒ²
 
 INSERT INTO SampleLike (strcol) VALUES ('abcddd');
 INSERT INTO SampleLike (strcol) VALUES ('dddabc');

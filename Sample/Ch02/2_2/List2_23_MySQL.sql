@@ -1,10 +1,10 @@
--- DDL�F�e�[�u���쐬
+-- DDL：テーブル作成
 CREATE TABLE Chars
 (chr CHAR(3) NOT NULL,
      PRIMARY KEY (chr));
 
 --MySQL
--- DML�F�f�[�^�o�^
+-- DML：データ登録
 START TRANSACTION;
 INSERT INTO Chars VALUES ('1');
 INSERT INTO Chars VALUES ('2');

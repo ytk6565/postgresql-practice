@@ -1,5 +1,5 @@
 --Oracle
---FROM‹å‚É’¼Úƒrƒ…[’è‹`‚ÌSELECT•¶‚ð‘‚­
+--FROMå¥ã«ç›´æŽ¥ãƒ“ãƒ¥ãƒ¼å®šç¾©ã®SELECTæ–‡ã‚’æ›¸ã
 SELECT shohin_bunrui, cnt_shohin
   FROM (SELECT shohin_bunrui, COUNT(*) AS cnt_shohin
           FROM Shohin

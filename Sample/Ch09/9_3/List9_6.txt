@@ -1,10 +1,10 @@
-/* List9-6 Shohinƒe[ƒuƒ‹‚©‚çushohin_idv‚Æushohin_meiv‚Ì2—ñ‚ğ‘Ss‘I‘ğ‚·‚éJavaƒvƒƒOƒ‰ƒ€ */
+/* List9-6 Shohinãƒ†ãƒ¼ãƒ–ãƒ«ã‹ã‚‰ã€Œshohin_idã€ã¨ã€Œshohin_meiã€ã®2åˆ—ã‚’å…¨è¡Œé¸æŠã™ã‚‹Javaãƒ—ãƒ­ã‚°ãƒ©ãƒ  */
 import java.sql.*;
 
 public class DBConnect2{
      public static void main(String[] args) throws Exception {
 
-          /* 1) PostgreSQL‚Ö‚ÌÚ‘±î•ñ */
+          /* 1) PostgreSQLã¸ã®æ¥ç¶šæƒ…å ± */
           Connection con; 
           Statement st;
           ResultSet rs;
@@ -13,23 +13,23 @@ public class DBConnect2{
           String user = "postgres";
           String password = "test"; 
 
-          /* 2) JDBCƒhƒ‰ƒCƒo‚Ì’è‹` */
+          /* 2) JDBCãƒ‰ãƒ©ã‚¤ãƒã®å®šç¾© */
           Class.forName("org.postgresql.Driver"); 
 
-          /* 3) PostgreSQL‚Ö‚ÌÚ‘± */
+          /* 3) PostgreSQLã¸ã®æ¥ç¶š */
           con = DriverManager.getConnection(url, user, password); 
           st = con.createStatement(); 
 
-          /* 4) SELECT•¶‚ÌÀs */
+          /* 4) SELECTæ–‡ã®å®Ÿè¡Œ */
           rs = st.executeQuery("SELECT shohin_id, shohin_mei FROM Shohin"); 
 
-          /* 5) Œ‹‰Ê‚Ì‰æ–Ê•\¦ */
+          /* 5) çµæœã®ç”»é¢è¡¨ç¤º */
           while(rs.next()) { 
                System.out.print(rs.getString("shohin_id") + ", ");
                System.out.println(rs.getString("shohin_mei"));
           } 
 
-          /* 6) PostgreSQL‚Æ‚ÌÚ‘±‚ğØ’f */
+          /* 6) PostgreSQLã¨ã®æ¥ç¶šã‚’åˆ‡æ–­ */
           rs.close(); 
           st.close();
           con.close(); 

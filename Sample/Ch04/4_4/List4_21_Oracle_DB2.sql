@@ -1,12 +1,12 @@
---OracleADB2
-    --ƒJƒbƒ^[ƒVƒƒƒc‚Ì”Ì”„’P‰¿‚ğ1000‰~’lˆø‚«
+--Oracleã€DB2
+    --ã‚«ãƒƒã‚¿ãƒ¼ã‚·ãƒ£ãƒ„ã®è²©å£²å˜ä¾¡ã‚’1000å††å€¤å¼•ã
     UPDATE Shohin
        SET hanbai_tanka = hanbai_tanka - 1000
-     WHERE shohin_mei = 'ƒJƒbƒ^[ƒVƒƒƒc';
+     WHERE shohin_mei = 'ã‚«ãƒƒã‚¿ãƒ¼ã‚·ãƒ£ãƒ„';
 
-    --TƒVƒƒƒc‚Ì”Ì”„’P‰¿‚ğ1000‰~’lã‚°
+    --Tã‚·ãƒ£ãƒ„ã®è²©å£²å˜ä¾¡ã‚’1000å††å€¤ä¸Šã’
     UPDATE Shohin
        SET hanbai_tanka = hanbai_tanka + 1000
-     WHERE shohin_mei = 'TƒVƒƒƒc';
+     WHERE shohin_mei = 'Tã‚·ãƒ£ãƒ„';
 
 COMMIT;

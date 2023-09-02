@@ -1,6 +1,6 @@
 UPDATE Shohin
    SET hanbai_tanka = hanbai_tanka * 10
- WHERE shohin_bunrui = 'ƒLƒbƒ`ƒ“—p•i';
+ WHERE shohin_bunrui = 'ã‚­ãƒƒãƒãƒ³ç”¨å“';
 
---•ÏX“à—e‚ÌŠm”F
+--å¤‰æ›´å†…å®¹ã®ç¢ºèª
 SELECT * FROM Shohin ORDER BY shohin_id;

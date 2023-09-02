@@ -1,11 +1,11 @@
--- DDL�F�e�[�u���쐬
+-- DDL：テーブル作成
 CREATE TABLE ZaikoShohin
 ( souko_id		CHAR(4)      NOT NULL,
   shohin_id     CHAR(4)      NOT NULL,
   zaiko_suryo	INTEGER      NOT NULL,
   PRIMARY KEY (souko_id, shohin_id));
 
--- DML�F�f�[�^�o�^
+-- DML：データ登録
 BEGIN TRANSACTION;
 
 INSERT INTO ZaikoShohin (souko_id, shohin_id, zaiko_suryo) VALUES ('S001',	'0001',	0);

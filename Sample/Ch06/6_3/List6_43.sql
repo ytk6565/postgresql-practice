@@ -1,5 +1,5 @@
---¤•i•ª—Ş‚²‚Æ‚É”Ì”„’P‰¿‚ğ‡Œv‚µ‚½Œ‹‰Ê‚ğs—ñ•ÏŠ·‚·‚é
-SELECT SUM(CASE WHEN shohin_bunrui = 'ˆß•'         THEN hanbai_tanka ELSE 0 END) AS sum_tanka_ihuku,
-       SUM(CASE WHEN shohin_bunrui = 'ƒLƒbƒ`ƒ“—p•i' THEN hanbai_tanka ELSE 0 END) AS sum_tanka_kitchen,
-       SUM(CASE WHEN shohin_bunrui = '––±—p•i'     THEN hanbai_tanka ELSE 0 END) AS sum_tanka_jimu
+--å•†å“åˆ†é¡ã”ã¨ã«è²©å£²å˜ä¾¡ã‚’åˆè¨ˆã—ãŸçµæœã‚’è¡Œåˆ—å¤‰æ›ã™ã‚‹
+SELECT SUM(CASE WHEN shohin_bunrui = 'è¡£æœ'         THEN hanbai_tanka ELSE 0 END) AS sum_tanka_ihuku,
+       SUM(CASE WHEN shohin_bunrui = 'ã‚­ãƒƒãƒãƒ³ç”¨å“' THEN hanbai_tanka ELSE 0 END) AS sum_tanka_kitchen,
+       SUM(CASE WHEN shohin_bunrui = 'äº‹å‹™ç”¨å“'     THEN hanbai_tanka ELSE 0 END) AS sum_tanka_jimu
   FROM Shohin;

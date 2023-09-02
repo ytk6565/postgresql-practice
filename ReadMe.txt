@@ -1,75 +1,75 @@
 ------------------------------------------------------------
-�v���O���~���O�w�K�V���[�Y
-�wSQL�@��2�Ł@�[������͂��߂�f�[�^�x�[�X����x
+プログラミング学習シリーズ
+『SQL　第2版　ゼロからはじめるデータベース操作』
 
-���_�E�����[�h�t�@�C���̓��e�ɂ���
+●ダウンロードファイルの内容について
 ------------------------------------------------------------
 
-���̓��e�����^����Ă��܂��B
+次の内容が収録されています。
 
-����ReadMe.txt            ���̃t�@�C��
-����Sample                ��0�́`��9�͂̃T���v���R�[�h
-����answer                ���K����SQL���Ɖ𓚗�
+├─ReadMe.txt            このファイル
+├─Sample                第0章～第9章のサンプルコード
+└─answer                練習問題のSQL文と解答例
 
-��Sample�t�H���_
-�{���Ɍf�ڂ���Ă���T���v���R�[�h���A�͂Ɛ߂��ƂɃt�H���_�𕪂��Ď��^���Ă��܂��BSample\CreateTable�t�H���_�ɂ́A�{���ŗ��p����T���v���e�[�u�����쐬���邽�߂�SQL����RDBMS�ʂɎ��^���Ă��܂��B
+○Sampleフォルダ
+本書に掲載されているサンプルコードを、章と節ごとにフォルダを分けて収録しています。Sample\CreateTableフォルダには、本書で利用するサンプルテーブルを作成するためのSQL文をRDBMS別に収録しています。
 
 \Sample
- ����Ch00     ��0�͂̃T���v���R�[�h
- ����Ch01     ��1�͂̃T���v���R�[�h
- ��  ����1_4  1-4�߂̃T���v���R�[�h
- ��  ����1_5  1-5�߂̃T���v���R�[�h
- ��      �E
- ��      �E
- ��      �E
- ��
- ����Ch09     ��9�͂̃T���v���R�[�h
- ��  ����9_2  9-2�߂̃T���v���R�[�h
- ��  ����9_3  9-3�߂̃T���v���R�[�h
- ��
- ����CreateTable  �T���v���e�[�u�����쐬����SQL��
-     ����DB2
-     ����MySQL
-     ����Oracle
-     ����PostgreSQL
-     ����SQLServer
+ ├─Ch00     第0章のサンプルコード
+ ├─Ch01     第1章のサンプルコード
+ │  ├─1_4  1-4節のサンプルコード
+ │  └─1_5  1-5節のサンプルコード
+ │      ・
+ │      ・
+ │      ・
+ │
+ ├─Ch09     第9章のサンプルコード
+ │  ├─9_2  9-2節のサンプルコード
+ │  └─9_3  9-3節のサンプルコード
+ │
+ └─CreateTable  サンプルテーブルを作成するSQL文
+     ├─DB2
+     ├─MySQL
+     ├─Oracle
+     ├─PostgreSQL
+     └─SQLServer
 
-��answer�t�H���_
-�e�͖��Ɍf�ڂ���Ă�����K���̉𓚗�i�T���v���R�[�h�j�A
-����SQL���Ȃǂ��A�͂��ƂɃt�H���_�𕪂��Ď��^���Ă��܂��B
+○answerフォルダ
+各章末に掲載されている練習問題の解答例（サンプルコード）、
+問題のSQL文などを、章ごとにフォルダを分けて収録しています。
 
 
-���T���v���R�[�h�ɂ���
+●サンプルコードについて
 
-�T���v���R�[�h�̃t�@�C�����́A�{���Ōf�ڂ��Ă��郊�X�g�ԍ��i�܂��̓y�[�W���j�ƑΉ����Ă��܂��B���Ƃ��΁A��1�͂�1-5�߂Ōf�ڂ��Ă���List1-3�̃T���v���R�[�h�́A���̂悤�Ȉʒu�A�t�@�C�����Ŏ��^���Ă��܂��B
-
-Sample
- ����Ch01
-     ����1_5
-         ����List1_3.sql
-
-�܂��A���Ƃ��΁A��1�́i1-5�߁j��List1-4�̂悤�ɁA�{���őΏۂƂ���RDBMS�̊ԂŋL�q�ɈႢ������SQL���̏ꍇ�A���̂悤�Ƀt�@�C�����̍Ō��RDBMS�̖��O�����Ă��܂��B
-
-�EList1_4_DB2_PostgreSQL_MySQL.sql
-�EList1_4_Oracle.sql
-�EList1_4_SQL Server.sql
-
-���T���v���e�[�u���쐬�pSQL
-Sample\CreateTable�t�H���_�Ɏ��^���Ă���A�e�[�u���쐬�pSQL�̃t�@�C�����́A�uCreateTable���e�[�u������.sql�v�ł��B
-���Ƃ��΁APostgreSQL�p��Shohin�e�[�u�����쐬����SQL�́A���̂悤�Ȉʒu�A�t�@�C�����Ŏ��^����Ă��܂��B
+サンプルコードのファイル名は、本文で掲載しているリスト番号（またはページ数）と対応しています。たとえば、第1章の1-5節で掲載しているList1-3のサンプルコードは、次のような位置、ファイル名で収録しています。
 
 Sample
- ����CreateTable
-     ����PostgreSQL
-         ����CreateTableShohin.sql
+ └─Ch01
+     └─1_5
+         └─List1_3.sql
 
-�Ȃ��ASample�t�H���_�Ɏ��^���Ă���T���v���R�[�h�t�@�C���i�g���q���u.sql�v�u.txt�v�j�́AWindows�̃�������e��e�L�X�g�G�f�B�^���g���ĊJ�����Ƃ��ł��܂��B
+また、たとえば、第1章（1-5節）のList1-4のように、本書で対象とするRDBMSの間で記述に違いがあるSQL文の場合、次のようにファイル名の最後にRDBMSの名前を入れています。
+
+・List1_4_DB2_PostgreSQL_MySQL.sql
+・List1_4_Oracle.sql
+・List1_4_SQL Server.sql
+
+○サンプルテーブル作成用SQL
+Sample\CreateTableフォルダに収録している、テーブル作成用SQLのファイル名は、「CreateTable＜テーブル名＞.sql」です。
+たとえば、PostgreSQL用のShohinテーブルを作成するSQLは、次のような位置、ファイル名で収録されています。
+
+Sample
+ └─CreateTable
+     └─PostgreSQL
+         └─CreateTableShohin.sql
+
+なお、Sampleフォルダに収録しているサンプルコードファイル（拡張子が「.sql」「.txt」）は、Windowsのメモ帳や各種テキストエディタを使って開くことができます。
 
 
-�������ӂ�������
+●ご注意ください
 
-�@�{���̃T���v���R�[�h�́A�ʏ�̉^�p�ɂ����Ă͉�����Ȃ����Ƃ�ҏW���ł͊m�F���Ă���܂����A�^�p�̌��ʁA�����Ȃ鑹�Q�����������Ƃ��Ă����ҁA�\�t�g�E�F�A�J���ҁA�i���j�ĉj�Ђ͂����Ȃ�ӔC�������܂���B
-�@Sample�t�H���_�Ɏ��^���ꂽ�t�@�C���̒��쌠�́A���҂����L���܂��B�������A�ǎ҂��l�I�ɗ��p����ꍇ�ɂ����ẮA�\�[�X�R�[�h�̗��p����ς͎��R�ɍs�Ȃ����Ƃ��ł��܂��B
-�@�Ȃ��A�ʂ̊��Ɉˑ����邨�₢���킹��A�{���̑Ή��͈͂𒴂�����Őݒ肳�ꂽ�ꍇ�̓����s��Ɋւ��邨�₢���킹�́A�󂯂��Ă���܂���B
+　本書のサンプルコードは、通常の運用においては何ら問題ないことを編集部では確認しておりますが、運用の結果、いかなる損害が発生したとしても著者、ソフトウェア開発者、（株）翔泳社はいかなる責任も負いません。
+　Sampleフォルダに収録されたファイルの著作権は、著者が所有します。ただし、読者が個人的に利用する場合においては、ソースコードの流用や改変は自由に行なうことができます。
+　なお、個別の環境に依存するお問い合わせや、本書の対応範囲を超える環境で設定された場合の動作や不具合に関するお問い合わせは、受けつけておりません。
 
-                                              ��������ĉj��
+                                              株式会社翔泳社

@@ -1,9 +1,9 @@
--- —ñ–¼‚Åw’è
+-- åˆ—åã§æŒ‡å®š
 SELECT shohin_id, shohin_mei, hanbai_tanka, shiire_tanka
   FROM Shohin
  ORDER BY hanbai_tanka DESC, shohin_id;
 
--- —ñ”Ô†‚Åw’è
+-- åˆ—ç•ªå·ã§æŒ‡å®š
 SELECT shohin_id, shohin_mei, hanbai_tanka, shiire_tanka
   FROM Shohin
  ORDER BY 3 DESC, 1;

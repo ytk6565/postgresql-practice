@@ -1,13 +1,13 @@
---���i���ނ��Ƃɏ��i�����W�v����r���[
+--商品分類ごとに商品数を集計するビュー
 CREATE VIEW ShohinSum (shohin_bunrui, cnt_shohin)
 AS
 SELECT shohin_bunrui, COUNT(*)
   FROM Shohin
  GROUP BY shohin_bunrui;
 
---�r���[���쐬����Ă��邱�Ƃ̊m�F
+--ビューが作成されていることの確認
 SELECT shohin_bunrui, cnt_shohin
   FROM ShohinSum;
 
---ShohinSum�̍폜
+--ShohinSumの削除
 DROP VIEW ShohinSum;

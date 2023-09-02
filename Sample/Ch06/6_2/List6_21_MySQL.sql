@@ -1,10 +1,10 @@
 --MySQL
---DDL�F�e�[�u���쐬
+--DDL：テーブル作成
 CREATE TABLE SampleLike
 ( strcol VARCHAR(6) NOT NULL,
   PRIMARY KEY (strcol));
 
---DML�F�f�[�^�o�^
+--DML：データ登録
 START TRANSACTION;
 
 INSERT INTO SampleLike (strcol) VALUES ('abcddd');

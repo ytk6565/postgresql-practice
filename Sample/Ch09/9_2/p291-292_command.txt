@@ -1,8 +1,8 @@
---ソースファイルの名前とクラス名を不一致にしてしまう
+--繧ｽ繝ｼ繧ｹ繝輔ぃ繧､繝ｫ縺ｮ蜷榊燕縺ｨ繧ｯ繝ｩ繧ｹ蜷阪ｒ荳堺ｸ閾ｴ縺ｫ縺励※縺励∪縺�
 C:\PostgreSQL\java\jdk\bin\javac Test.java
 
---コマンド名やファイル名を間違える
+--繧ｳ繝槭Φ繝牙錐繧�繝輔ぃ繧､繝ｫ蜷阪ｒ髢馴＆縺医ｋ
 C:\PostgreSQL\java\jdk\vin\java Hello
 
---クラス名を間違える
+--繧ｯ繝ｩ繧ｹ蜷阪ｒ髢馴＆縺医ｋ
 C:\PostgreSQL\java\jdk\bin\java Hallo

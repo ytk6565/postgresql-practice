@@ -1,8 +1,8 @@
 INSERT INTO ShohinIns (shohin_id, shohin_mei, shohin_bunrui, hanbai_tanka, shiire_tanka, torokubi) 
-       VALUES ('0001', 'TƒVƒƒƒc', 'ˆß•', 1000, 500, '2009-09-20');
+       VALUES ('0001', 'Tã‚·ãƒ£ãƒ„', 'è¡£æœ', 1000, 500, '2009-09-20');
 
 
 /*
--- VALUES‹å‚Ì’lƒŠƒXƒg‚ª1—ñ‘«‚è‚È‚¢I
-INSERT INTO ShohinIns (shohin_id, shohin_mei, shohin_bunrui, hanbai_tanka, shiire_tanka, torokubi) VALUES ('0001', 'TƒVƒƒƒc' ,'ˆß•', 1000, 500);
+-- VALUESå¥ã®å€¤ãƒªã‚¹ãƒˆãŒ1åˆ—è¶³ã‚Šãªã„ï¼
+INSERT INTO ShohinIns (shohin_id, shohin_mei, shohin_bunrui, hanbai_tanka, shiire_tanka, torokubi) VALUES ('0001', 'Tã‚·ãƒ£ãƒ„' ,'è¡£æœ', 1000, 500);
 */

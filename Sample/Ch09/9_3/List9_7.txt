@@ -1,10 +1,10 @@
-/* List9-7 XVSQL•¶‚ğ”­s‚µ‚Äƒe[ƒuƒ‹‚Ìƒf[ƒ^‚ğXV‚·‚éJavaƒvƒƒOƒ‰ƒ€ */
+/* List9-7 æ›´æ–°SQLæ–‡ã‚’ç™ºè¡Œã—ã¦ãƒ†ãƒ¼ãƒ–ãƒ«ã®ãƒ‡ãƒ¼ã‚¿ã‚’æ›´æ–°ã™ã‚‹Javaãƒ—ãƒ­ã‚°ãƒ©ãƒ  */
 import java.sql.*;
 
 public class DBConnect3{
      public static void main(String[] args) throws Exception {
 
-          /* 1) PostgreSQL‚Ö‚ÌÚ‘±î•ñ */
+          /* 1) PostgreSQLã¸ã®æ¥ç¶šæƒ…å ± */
           Connection con; 
           Statement st;
 
@@ -13,20 +13,20 @@ public class DBConnect3{
           String password = "test"; 
           
 
-          /* 2) JDBCƒhƒ‰ƒCƒo‚Ì’è‹` */
+          /* 2) JDBCãƒ‰ãƒ©ã‚¤ãƒã®å®šç¾© */
           Class.forName("org.postgresql.Driver");
 
-          /* 3) PostgreSQL‚Ö‚ÌÚ‘± */
+          /* 3) PostgreSQLã¸ã®æ¥ç¶š */
           con = DriverManager.getConnection(url, user, password);
           st = con.createStatement();
 
-          /* 4) DELETE•¶‚ÌÀs */
+          /* 4) DELETEæ–‡ã®å®Ÿè¡Œ */
           int delcnt = st.executeUpdate("DELETE FROM Shohin");
 
-          /* 5) Œ‹‰Ê‚Ì‰æ–Ê•\¦ */
-          System.out.print(delcnt + "síœ‚³‚ê‚Ü‚µ‚½");
+          /* 5) çµæœã®ç”»é¢è¡¨ç¤º */
+          System.out.print(delcnt + "è¡Œå‰Šé™¤ã•ã‚Œã¾ã—ãŸ");
 
-          /* 6) PostgreSQL‚Æ‚ÌÚ‘±‚ğØ’f */
+          /* 6) PostgreSQLã¨ã®æ¥ç¶šã‚’åˆ‡æ–­ */
           st.close();
           con.close();
      }

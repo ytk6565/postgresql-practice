@@ -1,8 +1,8 @@
--- ¤•iƒe[ƒuƒ‹‚Ìƒf[ƒ^‚ğ¤•iƒRƒs[ƒe[ƒuƒ‹‚ÖuƒRƒs[v
+-- å•†å“ãƒ†ãƒ¼ãƒ–ãƒ«ã®ãƒ‡ãƒ¼ã‚¿ã‚’å•†å“ã‚³ãƒ”ãƒ¼ãƒ†ãƒ¼ãƒ–ãƒ«ã¸ã€Œã‚³ãƒ”ãƒ¼ã€
 INSERT INTO ShohinCopy (shohin_id, shohin_mei, shohin_bunrui, hanbai_tanka, shiire_tanka, torokubi)
 SELECT shohin_id, shohin_mei, shohin_bunrui, hanbai_tanka, shiire_tanka, torokubi
   FROM Shohin;
 
 
--- ƒRƒs[s‚ÌŠm”F
+-- ã‚³ãƒ”ãƒ¼è¡Œã®ç¢ºèª
 SELECT * FROM ShohinCopy;

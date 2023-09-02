@@ -1,8 +1,8 @@
---1‰ñ‚ÌUPDATE‚Å1—ñ‚¾‚¯XV‚·‚é
+--1å›ã®UPDATEã§1åˆ—ã ã‘æ›´æ–°ã™ã‚‹
 UPDATE Shohin
    SET hanbai_tanka = hanbai_tanka * 10
- WHERE shohin_bunrui = 'ƒLƒbƒ`ƒ“—p•i';
+ WHERE shohin_bunrui = 'ã‚­ãƒƒãƒãƒ³ç”¨å“';
 
 UPDATE Shohin
    SET shiire_tanka = shiire_tanka / 2
- WHERE shohin_bunrui = 'ƒLƒbƒ`ƒ“—p•i';
+ WHERE shohin_bunrui = 'ã‚­ãƒƒãƒãƒ³ç”¨å“';

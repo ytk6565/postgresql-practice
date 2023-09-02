@@ -1,4 +1,4 @@
-/* List9-2 mƒGƒ‰[—án‘å•¶š‚Æ¬•¶š‚ğŠÔˆá‚¦‚é */
+/* List9-2 ï¼»ã‚¨ãƒ©ãƒ¼ä¾‹ï¼½å¤§æ–‡å­—ã¨å°æ–‡å­—ã‚’é–“é•ãˆã‚‹ */
 public class Hello{
      public static void main(String[] args){
           system.out.print("Hello, World");

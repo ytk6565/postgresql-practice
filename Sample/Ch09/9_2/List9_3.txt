@@ -1,6 +1,6 @@
-/* List9-3 mƒGƒ‰[—án‘SŠpƒXƒy[ƒX‚ğg‚¤ */
+/* List9-3 ï¼»ã‚¨ãƒ©ãƒ¼ä¾‹ï¼½å…¨è§’ã‚¹ãƒšãƒ¼ã‚¹ã‚’ä½¿ã† */
 public class Hello{
-@   public static void main(String[] args){
+ã€€   public static void main(String[] args){
           system.out.print("Hello, World");
      }
 }

@@ -1,4 +1,4 @@
 DROP VIEW ShohinSum;
 
-/* PostgreSQL�ő��i�r���[�̍쐬���ƂȂ��Ă���r���[���폜����ꍇ */
+/* PostgreSQLで多段ビューの作成元となっているビューを削除する場合 */
 DROP VIEW ShohinSum CASCADE;

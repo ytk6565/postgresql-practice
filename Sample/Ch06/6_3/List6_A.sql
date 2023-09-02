@@ -1,9 +1,9 @@
---’PƒCASE®‚Å‘‚¢‚½ê‡
+--å˜ç´”CASEå¼ã§æ›¸ã„ãŸå ´åˆ
 SELECT shohin_mei,
        CASE shohin_bunrui
-            WHEN 'ˆß•'         THEN 'AF' || shohin_bunrui
-            WHEN '––±—p•i'     THEN 'BF' || shohin_bunrui
-            WHEN 'ƒLƒbƒ`ƒ“—p•i' THEN 'CF' || shohin_bunrui
+            WHEN 'è¡£æœ'         THEN 'Aï¼š' || shohin_bunrui
+            WHEN 'äº‹å‹™ç”¨å“'     THEN 'Bï¼š' || shohin_bunrui
+            WHEN 'ã‚­ãƒƒãƒãƒ³ç”¨å“' THEN 'Cï¼š' || shohin_bunrui
             ELSE NULL
         END AS abc_shohin_bunrui
   FROM Shohin;
@@ -11,11 +11,11 @@ SELECT shohin_mei,
 
 
 --List6-A
---ŒŸõCASE®‚Å‘‚¢‚½ê‡iƒŠƒXƒg6-41ÄŒfj
+--æ¤œç´¢CASEå¼ã§æ›¸ã„ãŸå ´åˆï¼ˆãƒªã‚¹ãƒˆ6-41å†æ²ï¼‰
 SELECT shohin_mei,
-       CASE WHEN shohin_bunrui = 'ˆß•'         THEN 'AF' || shohin_bunrui
-            WHEN shohin_bunrui = '––±—p•i'     THEN 'BF' || shohin_bunrui
-            WHEN shohin_bunrui = 'ƒLƒbƒ`ƒ“—p•i' THEN 'CF' || shohin_bunrui
+       CASE WHEN shohin_bunrui = 'è¡£æœ'         THEN 'Aï¼š' || shohin_bunrui
+            WHEN shohin_bunrui = 'äº‹å‹™ç”¨å“'     THEN 'Bï¼š' || shohin_bunrui
+            WHEN shohin_bunrui = 'ã‚­ãƒƒãƒãƒ³ç”¨å“' THEN 'Cï¼š' || shohin_bunrui
             ELSE NULL
        END AS abc_shohin_bunrui
   FROM Shohin;

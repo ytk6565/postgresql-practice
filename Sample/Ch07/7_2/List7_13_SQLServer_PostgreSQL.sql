@@ -1,12 +1,12 @@
---SQL ServerAPostgreSQL
---DDLFƒe[ƒuƒ‹ì¬
+--SQL Serverã€PostgreSQL
+--DDLï¼šãƒ†ãƒ¼ãƒ–ãƒ«ä½œæˆ
 CREATE TABLE ZaikoShohin
 ( souko_id		CHAR(4)      NOT NULL,
   shohin_id     CHAR(4)      NOT NULL,
   zaiko_suryo	INTEGER      NOT NULL,
   PRIMARY KEY (souko_id, shohin_id));
 
---DMLFƒf[ƒ^“o˜^
+--DMLï¼šãƒ‡ãƒ¼ã‚¿ç™»éŒ²
 BEGIN TRANSACTION;
 
 INSERT INTO ZaikoShohin (souko_id, shohin_id, zaiko_suryo) VALUES ('S001',	'0001',	0);

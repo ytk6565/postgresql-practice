@@ -3,7 +3,7 @@ SELECT AVG(hanbai_tanka)
  GROUP BY shohin_bunrui;
 
 
---エラーになるサブクエリ 
+--繧ｨ繝ｩ繝ｼ縺ｫ縺ｪ繧九し繝悶け繧ｨ繝ｪ 
 SELECT shohin_id, shohinmei, hanbai_tanka
   FROM Shohin
  WHERE hanbai_tanka > (SELECT AVG(hanbai_tanka)

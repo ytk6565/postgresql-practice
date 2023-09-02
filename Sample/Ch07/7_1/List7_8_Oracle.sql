@@ -1,5 +1,5 @@
 --Oracle
---Shohin2のレコードからShohinのレコードを引く
+--Shohin2縺ｮ繝ｬ繧ｳ繝ｼ繝峨°繧唄hohin縺ｮ繝ｬ繧ｳ繝ｼ繝峨ｒ蠑輔￥
 SELECT shohin_id, shohin_mei
   FROM Shohin2
 MINUS

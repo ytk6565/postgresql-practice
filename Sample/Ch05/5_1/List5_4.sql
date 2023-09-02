@@ -2,8 +2,8 @@ CREATE VIEW ShohinSumJim (shohin_bunrui, cnt_shohin)
 AS
 SELECT shohin_bunrui, cnt_shohin
   FROM ShohinSum
- WHERE shohin_bunrui = '––±—p•i';
+ WHERE shohin_bunrui = 'äº‹å‹™ç”¨å“';
 
---ƒrƒ…[‚ªì¬‚³‚ê‚Ä‚¢‚é‚±‚Æ‚ÌŠm”F
+--ãƒ“ãƒ¥ãƒ¼ãŒä½œæˆã•ã‚Œã¦ã„ã‚‹ã“ã¨ã®ç¢ºèª
 SELECT shohin_bunrui, cnt_shohin
   FROM ShohinSumJim;

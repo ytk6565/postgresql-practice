@@ -5,7 +5,7 @@ HAVING AVG(hanbai_tanka) > (SELECT AVG(hanbai_tanka)
                               FROM Shohin);
 
 
-/* �X�J���E�T�u�N�G���ł͂Ȃ��̂�SELECT��ɏ����Ȃ��i�G���[�ɂȂ�j*/
+/* スカラ・サブクエリではないのでSELECT句に書けない（エラーになる）*/
 SELECT shohin_id, 
        shohin_mei, 
        hanbai_tanka,

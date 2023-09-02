@@ -1,6 +1,6 @@
 /* 
-  PostgreSQL‚Å‚ÍAList5-6‚ÌINSERT•¶‚ðŽÀs‚·‚é‘O‚É
-  ˆÈ‰º‚ðŽÀs‚µ‚Äƒrƒ…[‚ÌXV‚ð‹–‰Â‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B
+  PostgreSQLã§ã¯ã€List5-6ã®INSERTæ–‡ã‚’å®Ÿè¡Œã™ã‚‹å‰ã«
+  ä»¥ä¸‹ã‚’å®Ÿè¡Œã—ã¦ãƒ“ãƒ¥ãƒ¼ã®æ›´æ–°ã‚’è¨±å¯ã™ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
 */
 CREATE OR REPLACE RULE insert_rule
 AS ON INSERT

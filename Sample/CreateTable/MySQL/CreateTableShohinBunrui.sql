@@ -1,4 +1,4 @@
--- ���i���ނ��Ƃɂ܂Ƃ߂��e�[�u��
+-- 商品分類ごとにまとめたテーブル
 CREATE TABLE ShohinBunrui
 (shohin_bunrui VARCHAR(32)  NOT NULL,
  sum_hanbai_tanka  INTEGER      ,

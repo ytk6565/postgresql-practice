@@ -1,11 +1,11 @@
-/* List9-5 Shohinƒe[ƒuƒ‹‚ðì¬‚·‚éSQL */
---ƒf[ƒ^ƒx[ƒXshop‚Ìì¬
+/* List9-5 Shohinãƒ†ãƒ¼ãƒ–ãƒ«ã‚’ä½œæˆã™ã‚‹SQL */
+--ãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹shopã®ä½œæˆ
 CREATE DATABASE shop;
 
---‚¢‚Á‚½‚ñu\qv‚Åpsql‚ðƒƒOƒAƒEƒg‚µAÄ“xƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚©‚çshopƒf[ƒ^ƒx[ƒX‚ÖÚ‘±Bpostgres‚ÌƒpƒXƒ[ƒh‚ÍƒCƒ“ƒXƒg[ƒ‹Žž‚ÉŽw’è‚µ‚½‚à‚Ì
+--ã„ã£ãŸã‚“ã€Œ\qã€ã§psqlã‚’ãƒ­ã‚°ã‚¢ã‚¦ãƒˆã—ã€å†åº¦ã‚³ãƒžãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‹ã‚‰shopãƒ‡ãƒ¼ã‚¿ãƒ™ãƒ¼ã‚¹ã¸æŽ¥ç¶šã€‚postgresã®ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã¯ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«æ™‚ã«æŒ‡å®šã—ãŸã‚‚ã®
 C:\PostgreSQL\9.5\bin\psql.exe -U postgres -d shop
 
---Shohinƒe[ƒuƒ‹‚Ìì¬
+--Shohinãƒ†ãƒ¼ãƒ–ãƒ«ã®ä½œæˆ
 CREATE TABLE Shohin
 (shohin_id CHAR(4) NOT NULL,
  shohin_mei VARCHAR(100) NOT NULL,
@@ -15,14 +15,14 @@ CREATE TABLE Shohin
  torokubi DATE ,
      PRIMARY KEY (shohin_id));
 
---¤•iƒf[ƒ^‚Ì“o˜^
+--å•†å“ãƒ‡ãƒ¼ã‚¿ã®ç™»éŒ²
 BEGIN TRANSACTION;
-INSERT INTO Shohin VALUES ('0001', 'TƒVƒƒƒc', 'ˆß•ž', 1000, 500, '2009-09-20');
-INSERT INTO Shohin VALUES ('0002', 'ŒŠ‚ ‚¯ƒpƒ“ƒ`', 'Ž––±—p•i', 500, 320, '2009-09-11');
-INSERT INTO Shohin VALUES ('0003', 'ƒJƒbƒ^[ƒVƒƒƒc', 'ˆß•ž', 4000, 2800, NULL);
-INSERT INTO Shohin VALUES ('0004', '•ï’š', 'ƒLƒbƒ`ƒ“—p•i', 3000, 2800, '2009-09-20');
-INSERT INTO Shohin VALUES ('0005', 'ˆ³—Í“ç', 'ƒLƒbƒ`ƒ“—p•i', 6800, 5000, '2009-01-15');
-INSERT INTO Shohin VALUES ('0006', 'ƒtƒH[ƒN', 'ƒLƒbƒ`ƒ“—p•i', 500, NULL, '2009-09-20');
-INSERT INTO Shohin VALUES ('0007', '‚¨‚ë‚µ‚ª‚Ë', 'ƒLƒbƒ`ƒ“—p•i', 880, 790, '2008-04-28');
-INSERT INTO Shohin VALUES ('0008', 'ƒ{[ƒ‹ƒyƒ“', 'Ž––±—p•i', 100, NULL, '2009-11-11');
+INSERT INTO Shohin VALUES ('0001', 'Tã‚·ãƒ£ãƒ„', 'è¡£æœ', 1000, 500, '2009-09-20');
+INSERT INTO Shohin VALUES ('0002', 'ç©´ã‚ã‘ãƒ‘ãƒ³ãƒ', 'äº‹å‹™ç”¨å“', 500, 320, '2009-09-11');
+INSERT INTO Shohin VALUES ('0003', 'ã‚«ãƒƒã‚¿ãƒ¼ã‚·ãƒ£ãƒ„', 'è¡£æœ', 4000, 2800, NULL);
+INSERT INTO Shohin VALUES ('0004', 'åŒ…ä¸', 'ã‚­ãƒƒãƒãƒ³ç”¨å“', 3000, 2800, '2009-09-20');
+INSERT INTO Shohin VALUES ('0005', 'åœ§åŠ›é‹', 'ã‚­ãƒƒãƒãƒ³ç”¨å“', 6800, 5000, '2009-01-15');
+INSERT INTO Shohin VALUES ('0006', 'ãƒ•ã‚©ãƒ¼ã‚¯', 'ã‚­ãƒƒãƒãƒ³ç”¨å“', 500, NULL, '2009-09-20');
+INSERT INTO Shohin VALUES ('0007', 'ãŠã‚ã—ãŒã­', 'ã‚­ãƒƒãƒãƒ³ç”¨å“', 880, 790, '2008-04-28');
+INSERT INTO Shohin VALUES ('0008', 'ãƒœãƒ¼ãƒ«ãƒšãƒ³', 'äº‹å‹™ç”¨å“', 100, NULL, '2009-11-11');
 COMMIT;

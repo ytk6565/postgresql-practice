@@ -1,5 +1,5 @@
---SQL Server、DB2、PostgreSQL
---Shohin2のレコードからShohinのレコードを引く
+--SQL Server縲．B2縲￣ostgreSQL
+--Shohin2縺ｮ繝ｬ繧ｳ繝ｼ繝峨°繧唄hohin縺ｮ繝ｬ繧ｳ繝ｼ繝峨ｒ蠑輔￥
 SELECT shohin_id, shohin_mei
   FROM Shohin2
 EXCEPT

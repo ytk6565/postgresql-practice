@@ -1,7 +1,7 @@
--- shiire_tanka—ñi§–ñ‚È‚µj‚ğÈ—ªFuNULLv‚É‚È‚é
+-- shiire_tankaåˆ—ï¼ˆåˆ¶ç´„ãªã—ï¼‰ã‚’çœç•¥ï¼šã€ŒNULLã€ã«ãªã‚‹
 INSERT INTO ShohinIns (shohin_id, shohin_mei, shohin_bunrui, hanbai_tanka, torokubi) 
-       VALUES ('0008', 'ƒ{[ƒ‹ƒyƒ“', '––±—p•i', 100, '2009-11-11');
+       VALUES ('0008', 'ãƒœãƒ¼ãƒ«ãƒšãƒ³', 'äº‹å‹™ç”¨å“', 100, '2009-11-11');
 
--- shohin_mei—ñiNOT NULL§–ñj‚ğÈ—ªFƒGƒ‰[I
+-- shohin_meiåˆ—ï¼ˆNOT NULLåˆ¶ç´„ï¼‰ã‚’çœç•¥ï¼šã‚¨ãƒ©ãƒ¼ï¼
 INSERT INTO ShohinIns (shohin_id, shohin_bunrui, hanbai_tanka, shiire_tanka, torokubi) 
-       VALUES ('0009', '––±—p•i', 1000, 500, '2009-12-12');
+       VALUES ('0009', 'äº‹å‹™ç”¨å“', 1000, 500, '2009-12-12');

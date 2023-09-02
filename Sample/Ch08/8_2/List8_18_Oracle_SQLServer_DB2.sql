@@ -1,9 +1,9 @@
---OracleADB2ASQL ServerAPostgreSQL
+--Oracleã€DB2ã€SQL Serverã€PostgreSQL
 SELECT CASE WHEN GROUPING(shohin_bunrui) = 1
-            THEN '¤•i•ª—Ş ‡Œv'
+            THEN 'å•†å“åˆ†é¡ åˆè¨ˆ'
             ELSE shohin_bunrui END AS shohin_bunrui,
        CASE WHEN GROUPING(torokubi) = 1
-            THEN '“o˜^“ú ‡Œv'
+            THEN 'ç™»éŒ²æ—¥ åˆè¨ˆ'
             ELSE CAST(torokubi AS VARCHAR(16)) END AS torokubi,
        SUM(hanbai_tanka) AS sum_tanka
   FROM Shohin

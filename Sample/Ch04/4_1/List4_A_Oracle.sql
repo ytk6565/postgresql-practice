@@ -1,14 +1,14 @@
--- Oracle‚Å‚Ì•¡”sINSERT
-INSERT ALL INTO ShohinIns VALUES ('0002', 'ŒŠ‚ ‚¯ƒpƒ“ƒ`', 'Ž––±—p•i', 500, 320, '2009-09-11')
-INTO ShohinIns VALUES ('0003', 'ƒJƒbƒ^[ƒVƒƒƒc', 'ˆß•ž', 4000, 2800, NULL)
-INTO ShohinIns VALUES ('0004', '•ï’š', 'ƒLƒbƒ`ƒ“—p•i', 3000, 2800, '2009-09-20')
+-- Oracleã§ã®è¤‡æ•°è¡ŒINSERT
+INSERT ALL INTO ShohinIns VALUES ('0002', 'ç©´ã‚ã‘ãƒ‘ãƒ³ãƒ', 'äº‹å‹™ç”¨å“', 500, 320, '2009-09-11')
+INTO ShohinIns VALUES ('0003', 'ã‚«ãƒƒã‚¿ãƒ¼ã‚·ãƒ£ãƒ„', 'è¡£æœ', 4000, 2800, NULL)
+INTO ShohinIns VALUES ('0004', 'åŒ…ä¸', 'ã‚­ãƒƒãƒãƒ³ç”¨å“', 3000, 2800, '2009-09-20')
 SELECT * FROM DUAL;
 
 
 
 /*
--- ’Êí‚ÌINSERT
-INSERT INTO ShohinIns VALUES@('0002', 'ŒŠ‚ ‚¯ƒpƒ“ƒ`', 'Ž––±—p•i', 500, 320, '2009-09-11');
-INSERT INTO ShohinIns VALUES ('0003', 'ƒJƒbƒ^[ƒVƒƒƒc', 'ˆß•ž', 4000, 2800, NULL);
-INSERT INTO ShohinIns VALUES ('0004', '•ï’š', 'ƒLƒbƒ`ƒ“—p•i', 3000, 2800, '2009-09-20');
+-- é€šå¸¸ã®INSERT
+INSERT INTO ShohinIns VALUESã€€('0002', 'ç©´ã‚ã‘ãƒ‘ãƒ³ãƒ', 'äº‹å‹™ç”¨å“', 500, 320, '2009-09-11');
+INSERT INTO ShohinIns VALUES ('0003', 'ã‚«ãƒƒã‚¿ãƒ¼ã‚·ãƒ£ãƒ„', 'è¡£æœ', 4000, 2800, NULL);
+INSERT INTO ShohinIns VALUES ('0004', 'åŒ…ä¸', 'ã‚­ãƒƒãƒãƒ³ç”¨å“', 3000, 2800, '2009-09-20');
 */

@@ -1,4 +1,4 @@
--- DDLFƒe[ƒuƒ‹ì¬
+-- DDLï¼šãƒ†ãƒ¼ãƒ–ãƒ«ä½œæˆ
 CREATE TABLE Shohin2
 (shohin_id     CHAR(4)      NOT NULL,
  shohin_mei    VARCHAR(100) NOT NULL,
@@ -8,13 +8,13 @@ CREATE TABLE Shohin2
  torokubi      DATE         ,
  PRIMARY KEY (shohin_id));
 
--- DMLFƒf[ƒ^“o˜^
+-- DMLï¼šãƒ‡ãƒ¼ã‚¿ç™»éŒ²
 BEGIN TRANSACTION;
 
-INSERT INTO Shohin2 VALUES ('0001', 'TƒVƒƒƒc' ,'ˆß•ž', 1000, 500, '2009-09-20');
-INSERT INTO Shohin2 VALUES ('0002', 'ŒŠ‚ ‚¯ƒpƒ“ƒ`', 'Ž––±—p•i', 500, 320, '2009-09-11');
-INSERT INTO Shohin2 VALUES ('0003', 'ƒJƒbƒ^[ƒVƒƒƒc', 'ˆß•ž', 4000, 2800, NULL);
-INSERT INTO Shohin2 VALUES ('0009', 'Žè‘Ü', 'ˆß•ž', 800, 500, NULL);
-INSERT INTO Shohin2 VALUES ('0010', '‚â‚©‚ñ', 'ƒLƒbƒ`ƒ“—p•i', 2000, 1700, '2009-09-20');
+INSERT INTO Shohin2 VALUES ('0001', 'Tã‚·ãƒ£ãƒ„' ,'è¡£æœ', 1000, 500, '2009-09-20');
+INSERT INTO Shohin2 VALUES ('0002', 'ç©´ã‚ã‘ãƒ‘ãƒ³ãƒ', 'äº‹å‹™ç”¨å“', 500, 320, '2009-09-11');
+INSERT INTO Shohin2 VALUES ('0003', 'ã‚«ãƒƒã‚¿ãƒ¼ã‚·ãƒ£ãƒ„', 'è¡£æœ', 4000, 2800, NULL);
+INSERT INTO Shohin2 VALUES ('0009', 'æ‰‹è¢‹', 'è¡£æœ', 800, 500, NULL);
+INSERT INTO Shohin2 VALUES ('0010', 'ã‚„ã‹ã‚“', 'ã‚­ãƒƒãƒãƒ³ç”¨å“', 2000, 1700, '2009-09-20');
 
 COMMIT;

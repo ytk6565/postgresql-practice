@@ -1,8 +1,8 @@
 --Oracle
---Oracle‚ÌDECODE‚ÅCASE®‚ğ‘ã—p
+--Oracleã®DECODEã§CASEå¼ã‚’ä»£ç”¨
 SELECT  shohin_mei,
-        DECODE(shohin_bunrui, 'ˆß•',         'AF' || shohin_bunrui,
-                              '––±—p•i',     'BF' || shohin_bunrui,
-                              'ƒLƒbƒ`ƒ“—p•i', 'CF' || shohin_bunrui,
+        DECODE(shohin_bunrui, 'è¡£æœ',         'Aï¼š' || shohin_bunrui,
+                              'äº‹å‹™ç”¨å“',     'Bï¼š' || shohin_bunrui,
+                              'ã‚­ãƒƒãƒãƒ³ç”¨å“', 'Cï¼š' || shohin_bunrui,
                NULL) AS abc_shohin_bunrui
   FROM Shohin;

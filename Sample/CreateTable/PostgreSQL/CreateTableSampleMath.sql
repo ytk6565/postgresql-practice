@@ -1,10 +1,10 @@
--- DDL�F�e�[�u���쐬
+-- DDL：テーブル作成
 CREATE TABLE SampleMath
 (m  NUMERIC (10,3),
  n  INTEGER,
  p  INTEGER);
 
--- DML�F�f�[�^�o�^
+-- DML：データ登録
 BEGIN TRANSACTION;
 
 INSERT INTO SampleMath(m, n, p) VALUES (500,  0,    NULL);
@@ -22,5 +22,5 @@ INSERT INTO SampleMath(m, n, p) VALUES (8.76, NULL, NULL);
 COMMIT;
 
 
--- �e�[�u���̓��e�m�F
+-- テーブルの内容確認
 SELECT * FROM SampleMath;

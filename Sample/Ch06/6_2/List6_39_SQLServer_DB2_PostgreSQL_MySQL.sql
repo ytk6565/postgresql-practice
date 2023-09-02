@@ -1,6 +1,6 @@
 SELECT shohin_mei, hanbai_tanka
   FROM Shohin AS S
- WHERE EXISTS (SELECT 1 -- ‚±‚±‚Ν“K“–‚Θ’θ”‚π‘‚Ά‚Δ‚ΰ‚©‚ά‚Ά‚ά‚Ή‚ρB
+ WHERE EXISTS (SELECT 1 -- γ“γ“γ―ι©ε½“γªε®ζ•°γ‚’ζ›Έγ„γ¦γ‚‚γ‹γΎγ„γΎγ›γ‚“γ€‚
                  FROM TenpoShohin AS TS
                 WHERE TS.tenpo_id = '000C'
                   AND TS.shohin_id = S.shohin_id);

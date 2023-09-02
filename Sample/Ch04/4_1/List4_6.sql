@@ -1,7 +1,7 @@
 INSERT INTO ShohinIns (shohin_id, shohin_mei, shohin_bunrui, hanbai_tanka, shiire_tanka, torokubi) 
-       VALUES ('0007', '‚¨‚ë‚µ‚ª‚Ë', 'ƒLƒbƒ`ƒ“—p•i', DEFAULT, 790, '2009-04-28');
+       VALUES ('0007', 'ãŠã‚ã—ãŒã­', 'ã‚­ãƒƒãƒãƒ³ç”¨å“', DEFAULT, 790, '2009-04-28');
 
 
 
--- ‘}“üs‚ÌŠm”F
+-- æŒ¿å…¥è¡Œã®ç¢ºèª
 SELECT * FROM ShohinIns WHERE shohin_id = '0007';

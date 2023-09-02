@@ -1,9 +1,9 @@
---cdƒRƒ}ƒ“ƒhiw’èƒtƒHƒ‹ƒ_‚ÖˆÚ“®j
+--cdã‚³ãƒãƒ³ãƒ‰ï¼ˆæŒ‡å®šãƒ•ã‚©ãƒ«ãƒ€ã¸ç§»å‹•ï¼‰
 cd C:\PostgreSQL\java\src
 
---javacƒRƒ}ƒ“ƒhiƒRƒ“ƒpƒCƒ‹j
+--javacã‚³ãƒãƒ³ãƒ‰ï¼ˆã‚³ãƒ³ãƒ‘ã‚¤ãƒ«ï¼‰
 C:\PostgreSQL\java\jdk\bin\javac Hello.java
 
 
---javaƒRƒ}ƒ“ƒhiÀsj
+--javaã‚³ãƒãƒ³ãƒ‰ï¼ˆå®Ÿè¡Œï¼‰
 C:\PostgreSQL\java\jdk\bin\java Hello

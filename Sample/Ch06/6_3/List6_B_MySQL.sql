@@ -1,11 +1,11 @@
 --MySQL
--- MySQLÇÃIFÇ≈CASEéÆÇë„óp
+-- MySQL„ÅÆIF„ÅßCASEÂºè„Çí‰ª£Áî®
 SELECT  shohin_mei,
-        IF( IF( IF(shohin_bunrui = 'àﬂïû',  CONCAT('AÅF', shohin_bunrui), NULL)
-            	    IS NULL AND shohin_bunrui = 'éññ±ópïi', CONCAT('BÅF', shohin_bunrui), 
-            	IF(shohin_bunrui = 'àﬂïû',  CONCAT('AÅF', shohin_bunrui), NULL))
-                    IS NULL AND shohin_bunrui = 'ÉLÉbÉ`Éìópïi', CONCAT('CÅF', shohin_bunrui), 
-                    IF( IF(shohin_bunrui = 'àﬂïû',  CONCAT('AÅF', shohin_bunrui), NULL)
-            	    IS NULL AND shohin_bunrui = 'éññ±ópïi', CONCAT('BÅF', shohin_bunrui), 
-            	IF(shohin_bunrui = 'àﬂïû',  CONCAT('AÅF', shohin_bunrui), NULL))) AS abc_shohin_bunrui
+        IF( IF( IF(shohin_bunrui = 'Ë°£Êúç',  CONCAT('AÔºö', shohin_bunrui), NULL)
+            	    IS NULL AND shohin_bunrui = '‰∫ãÂãôÁî®ÂìÅ', CONCAT('BÔºö', shohin_bunrui), 
+            	IF(shohin_bunrui = 'Ë°£Êúç',  CONCAT('AÔºö', shohin_bunrui), NULL))
+                    IS NULL AND shohin_bunrui = '„Ç≠„ÉÉ„ÉÅ„É≥Áî®ÂìÅ', CONCAT('CÔºö', shohin_bunrui), 
+                    IF( IF(shohin_bunrui = 'Ë°£Êúç',  CONCAT('AÔºö', shohin_bunrui), NULL)
+            	    IS NULL AND shohin_bunrui = '‰∫ãÂãôÁî®ÂìÅ', CONCAT('BÔºö', shohin_bunrui), 
+            	IF(shohin_bunrui = 'Ë°£Êúç',  CONCAT('AÔºö', shohin_bunrui), NULL))) AS abc_shohin_bunrui
   FROM Shohin;

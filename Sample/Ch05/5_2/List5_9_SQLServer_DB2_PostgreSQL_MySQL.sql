@@ -1,5 +1,5 @@
---SQL ServerADB2APostgreSQLAMySQL
---FROM‹å‚É’¼Úƒrƒ…[’è‹`‚ÌSELECT•¶‚ğ‘‚­
+--SQL Serverã€DB2ã€PostgreSQLã€MySQL
+--FROMå¥ã«ç›´æ¥ãƒ“ãƒ¥ãƒ¼å®šç¾©ã®SELECTæ–‡ã‚’æ›¸ã
 SELECT shohin_bunrui, cnt_shohin
   FROM (SELECT shohin_bunrui, COUNT(*) AS cnt_shohin
           FROM Shohin

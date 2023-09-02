@@ -1,8 +1,8 @@
 SELECT shohin_id, shohin_mei
   FROM Shohin
- WHERE shohin_bunrui = 'ƒLƒbƒ`ƒ“—p•i'
+ WHERE shohin_bunrui = 'ã‚­ãƒƒãƒãƒ³ç”¨å“'
 UNION
 SELECT shohin_id, shohin_mei
   FROM Shohin2
- WHERE shohin_bunrui = 'ƒLƒbƒ`ƒ“—p•i'
+ WHERE shohin_bunrui = 'ã‚­ãƒƒãƒãƒ³ç”¨å“'
 ORDER BY shohin_id;
