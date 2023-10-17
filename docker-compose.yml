@@ -6,7 +6,7 @@ services:
     image: postgres:14.5-bullseye
     container_name: db
     ports:
-      - "6565:5432"
+      - "6363:5432"
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
