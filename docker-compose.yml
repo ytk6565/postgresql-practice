@@ -1,0 +1,15 @@
+# Use postgres/example user/password credentials
+version: "3"
+
+services:
+  postgres:
+    image: postgres:14.5-bullseye
+    container_name: db
+    ports:
+      - "6565:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d
