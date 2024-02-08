@@ -1,16 +1,16 @@
 /*
-  �ȉ���
-  ���SELECT��
+  以下は
+  問のSELECT文
 */
--- �r���[���e�̊m�F
+-- ビュー内容の確認
 SELECT * FROM ViewRenshu5_1;
 
 
 /*
-  �ȉ���
-  �𓚗�
+  以下は
+  解答例
 */
--- �r���[�̍쐬��
+-- ビューの作成文
 CREATE VIEW ViewRenshu5_1 AS
 SELECT shohin_mei, hanbai_tanka, torokubi
   FROM Shohin

@@ -1,8 +1,8 @@
 /*
-  ˆÈ‰º‚Í
-  –â‚ÌSELECT•¶
+  ä»¥ä¸‹ã¯
+  å•ã®SELECTæ–‡
 */
--- ¤•i·‰vƒe[ƒuƒ‹
+-- å•†å“å·®ç›Šãƒ†ãƒ¼ãƒ–ãƒ«
 CREATE TABLE ShohinSaeki
 (shohin_id    CHAR(4)       NOT NULL,
  shohin_mei   VARCHAR(100)  NOT NULL,
@@ -13,13 +13,13 @@ CREATE TABLE ShohinSaeki
 
 
 /*
-  ˆÈ‰º‚Í
-  ‰ğ“š—á
+  ä»¥ä¸‹ã¯
+  è§£ç­”ä¾‹
 */
--- Shohinƒe[ƒuƒ‹‚©‚çShohinSaekiƒe[ƒuƒ‹‚Öƒf[ƒ^‚ğ“o˜^
+-- Shohinãƒ†ãƒ¼ãƒ–ãƒ«ã‹ã‚‰ShohinSaekiãƒ†ãƒ¼ãƒ–ãƒ«ã¸ãƒ‡ãƒ¼ã‚¿ã‚’ç™»éŒ²
 INSERT INTO ShohinSaeki (shohin_id, shohin_mei, hanbai_tanka, shiire_tanka, saeki)
 SELECT shohin_id, shohin_mei, hanbai_tanka, shiire_tanka, hanbai_tanka - shiire_tanka
   FROM Shohin;
 
--- ƒf[ƒ^“o˜^‚ÌŠm”F
+-- ãƒ‡ãƒ¼ã‚¿ç™»éŒ²ã®ç¢ºèª
 SELECT * FROM ShohinSaeki;

@@ -1,9 +1,9 @@
-/* 9-2‰ğ“š */
+/* 9-2è§£ç­” */
 import java.sql.*;
 
 public class DBUpd{
   public static void main(String[] args) throws Exception {
-    /* 1) PostgreSQL‚Ö‚ÌÚ‘±î•ñ */
+    /* 1) PostgreSQLã¸ã®æ¥ç¶šæƒ…å ± */
     Connection con;
     Statement st;
 
@@ -11,20 +11,20 @@ public class DBUpd{
     String user = "postgres";
     String password = "test";
     
-    /* 2) JDBCƒhƒ‰ƒCƒo‚Ì’è‹` */
+    /* 2) JDBCãƒ‰ãƒ©ã‚¤ãƒã®å®šç¾© */
     Class.forName("org.postgresql.Driver");
 
-    /* 3) PostgreSQL‚Ö‚ÌÚ‘± */
+    /* 3) PostgreSQLã¸ã®æ¥ç¶š */
     con = DriverManager.getConnection(url, user, password);
     st = con.createStatement();
 
-    /* 4) UPDATE•¶‚ÌÀs */
+    /* 4) UPDATEæ–‡ã®å®Ÿè¡Œ */
     int inscnt=0;
-    inscnt = st.executeUpdate("UPDATE Shohin SET shohin_mei = 'YƒVƒƒƒc' WHERE shohin_id = '0001'");
-    System.out.println(inscnt + "sXV‚³‚ê‚Ü‚µ‚½");
+    inscnt = st.executeUpdate("UPDATE Shohin SET shohin_mei = 'Yã‚·ãƒ£ãƒ„' WHERE shohin_id = '0001'");
+    System.out.println(inscnt + "è¡Œæ›´æ–°ã•ã‚Œã¾ã—ãŸ");
 
     
-    /*5) PostgreSQL‚Æ‚ÌÚ‘±‚ğØ’f */
+    /*5) PostgreSQLã¨ã®æ¥ç¶šã‚’åˆ‡æ–­ */
     con.close();
   }
 }

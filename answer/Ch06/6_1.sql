@@ -1,13 +1,13 @@
 /*
-  à»â∫ÇÕ
-  ñ‚ÇÃSELECTï∂
+  ‰ª•‰∏ã„ÅØ
+  Âïè„ÅÆSELECTÊñá
 */
--- á@
+-- ‚ë†
 SELECT shohin_mei, shiire_tanka
   FROM Shohin
  WHERE shiire_tanka NOT IN (500, 2800, 5000);
 
--- áA
+-- ‚ë°
 SELECT shohin_mei, shiire_tanka
   FROM Shohin
  WHERE shiire_tanka NOT IN (500, 2800, 5000, NULL);

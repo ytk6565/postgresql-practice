@@ -1,8 +1,8 @@
 /*
-  ˆÈ‰º‚Í
-  –â‚ÌSELECT•¶
+  ä»¥ä¸‹ã¯
+  å•ã®SELECTæ–‡
 */
--- –{•¶‚ÅŽg‚Á‚½Shohinƒe[ƒuƒ‹‚ð—˜—p
+-- æœ¬æ–‡ã§ä½¿ã£ãŸShohinãƒ†ãƒ¼ãƒ–ãƒ«ã‚’åˆ©ç”¨
 SELECT *
   FROM Shohin
 UNION

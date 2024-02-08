@@ -1,12 +1,12 @@
--- 1D”Ì”„’P‰¿‚Ìˆø‚«‰º‚°
+-- 1ï¼è²©å£²å˜ä¾¡ã®å¼•ãä¸‹ã’
 UPDATE ShohinSaeki
    SET hanbai_tanka = 3000
  WHERE shohin_id = '0003';
 
--- 2D·‰v‚ÌÄŒvZ
+-- 2ï¼å·®ç›Šã®å†è¨ˆç®—
 UPDATE ShohinSaeki
    SET saeki = hanbai_tanka - shiire_tanka
  WHERE shohin_id = '0003';
 
--- ƒf[ƒ^•ÏX‚ÌŠm”F
+-- ãƒ‡ãƒ¼ã‚¿å¤‰æ›´ã®ç¢ºèª
 SELECT * FROM ShohinSaeki;

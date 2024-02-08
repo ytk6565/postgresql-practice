@@ -1,5 +1,5 @@
-SELECT COALESCE(TS.tenpo_id, 'ïsñæ')  AS tenpo_id, 
-       COALESCE(TS.tenpo_mei, 'ïsñæ') AS tenpo_mei,
+SELECT COALESCE(TS.tenpo_id, '‰∏çÊòé')  AS tenpo_id, 
+       COALESCE(TS.tenpo_mei, '‰∏çÊòé') AS tenpo_mei,
        S.shohin_id, 
        S.shohin_mei, 
        S.hanbai_tanka

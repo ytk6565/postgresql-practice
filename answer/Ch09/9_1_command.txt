@@ -1,5 +1,5 @@
---ƒRƒ“ƒpƒCƒ‹
+--ã‚³ãƒ³ãƒ‘ã‚¤ãƒ«
 C:\PostgreSQL\java\jdk\bin\javac DBIns.java 
 
---Às
+--å®Ÿè¡Œ
 C:\PostgreSQL\java\jdk\bin\java -cp C:\PostgreSQL\jdbc\*;. DBIns

@@ -1,9 +1,9 @@
 /*
-  ˆÈ‰º‚Í
-  –â‚ÌSELECT•¶
+  ä»¥ä¸‹ã¯
+  å•ã®SELECTæ–‡
 */
 SELECT shohin_id, SUM(shohin_mei)
--- ‚±‚Ì SELECT •¶‚ÍŠÔˆá‚Á‚Ä‚¢‚Ü‚·B
+-- ã“ã® SELECT æ–‡ã¯é–“é•ã£ã¦ã„ã¾ã™ã€‚
   FROM Shohin
  GROUP BY shohin_bunrui
  WHERE torokubi > '2009-09-01';

@@ -1,4 +1,4 @@
--- ƒrƒ…[‚Ìì¬•¶
+-- ãƒ“ãƒ¥ãƒ¼ã®ä½œæˆæ–‡
 CREATE VIEW AvgTankaByBunrui AS
 SELECT shohin_id,
        shohin_mei,
@@ -10,5 +10,5 @@ SELECT shohin_id,
          GROUP BY S1.shohin_bunrui) AS avg_hanbai_tanka
  FROM Shohin S1;
 
--- ƒrƒ…[“à—e‚ÌŠm”F
+-- ãƒ“ãƒ¥ãƒ¼å†…å®¹ã®ç¢ºèª
 SELECT * FROM AvgTankaByBunrui;

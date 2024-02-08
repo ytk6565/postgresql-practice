@@ -1,18 +1,18 @@
 /*
-  à»â∫ÇÕ
-  ñ‚ÇÃSELECTï∂
+  ‰ª•‰∏ã„ÅØ
+  Âïè„ÅÆSELECTÊñá
 */
--- á@
+-- ‚ë†
 SELECT *
       FROM Shohin
      WHERE shiire_tanka = NULL;
 
--- áA
+-- ‚ë°
 SELECT *
       FROM Shohin
      WHERE shiire_tanka <> NULL;
 
--- áB
+-- ‚ë¢
 SELECT *
       FROM Shohin
      WHERE shohin_mei > NULL;
